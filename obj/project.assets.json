@@ -8,26 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\96658\\.nuget\\packages\\": {}
+    "/Users/taj/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\96658\\source\\repos\\Shopping\\Shopping.csproj",
+      "projectUniqueName": "/Users/taj/Desktop/Tuwaiq/ASP.NET/shopping/Shopping.csproj",
       "projectName": "Shopping",
-      "projectPath": "C:\\Users\\96658\\source\\repos\\Shopping\\Shopping.csproj",
-      "packagesPath": "C:\\Users\\96658\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\96658\\source\\repos\\Shopping\\obj\\",
+      "projectPath": "/Users/taj/Desktop/Tuwaiq/ASP.NET/shopping/Shopping.csproj",
+      "packagesPath": "/Users/taj/.nuget/packages/",
+      "outputPath": "/Users/taj/Desktop/Tuwaiq/ASP.NET/shopping/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\96658\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/taj/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
