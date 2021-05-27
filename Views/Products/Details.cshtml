@@ -1,0 +1,28 @@
+﻿<h1>List of products</h1>
+
+<table class="table">
+    <thead>
+        <tr align="center">
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        @{
+            var product = ViewData["product"] as ProductModel;
+                <tr>
+                    <th>@product.id </th>
+                    <td>@product.name </td>
+                    <td>@product.price</td>
+                    <td><img width="150" height="150" src="@product.image" alt="@product.image"></td>
+                </tr>
+            }
+        }
+    </tbody>
+
+</table>
+
+
+

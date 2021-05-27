@@ -1,0 +1,45 @@
+﻿<h1>List of products</h1>
+
+@{
+    //casting 2 ways
+    // way 1
+    //var prd = ViewData["products"] as IList<ProductModel>;
+
+    // way 2
+    var prd = (List<ProductModel>)ViewData["products"];
+    var color = ViewData["color"];
+    //Layout = "_LayoutWeb";
+}
+
+<table class="table">
+    <thead>
+        <tr align="center">
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Image</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        @{
+            foreach (var product in prd)
+            {
+                <tr style="background-color:@color">
+                    <th>@product.id </th>
+                    <td>@product.name </td>
+                    <td>@product.price</td>
+                    <td><img width="150" height="150" src="@product.image" alt="@product.image"></td>
+                    <td>
+                        <a href="/products/details/@product.id">
+                            <button type="button" class="btn btn-danger">show</button>
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+
+</table>
+
+
+   
